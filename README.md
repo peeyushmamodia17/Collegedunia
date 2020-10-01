@@ -13,7 +13,6 @@ Video url: https://drive.google.com/file/d/13h6UwlCsag5arXtbm1uYRpT4An-Rf1ba/vie
 * After scroll down when reach at bottom it show loading sign and append 10 more colleges in list.
 * Every time user reach at bottom it append 10 colleges untill all the colleges are not render.
 
-## Getting Started
 # Getting Started
 1. Clone the project by link https://github.com/peeyushmamodia17/collegedunia.git
 2. Go to folder.

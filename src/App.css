@@ -1,0 +1,272 @@
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* my css */
+
+.tool-top {
+  position: absolute;
+}
+.tool-tip-bottom,
+.tool-tip-top,
+.tool-tip-left,
+.tool-tip-right {
+  color: white;
+  padding: 20px;
+  font-weight: 900;
+  background-color: orangered;
+}
+
+.tool-tip-left{
+  transform: translate(470px, 90px) !important;
+}
+
+.tool-tip-right{
+  transform: translate(810px, 90px) !important;
+}
+
+.tool-tip-bottom{
+  transform: translate(650px, 190px) !important;
+}
+
+.main {
+  padding: 10px 20px;
+  background-color: blue;
+  border: 0px;
+  border-radius: 30px;
+  color: white;
+  font-weight: 800;
+}
+
+.selected-state {
+  text-transform: capitalize;
+}
+
+#dropdown {
+  padding: 2px 4px;
+}
+
+.detail1{
+  
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px #ccc; 
+  margin: 10px;
+}
+.head-container{
+  width: 48%;
+}
+.detail{
+ 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ 
+}
+.head1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.img{
+  width: 100%;
+  height: 234px;
+  background-color: var(--red);
+  opacity: 0.4;
+}
+.range{
+  padding: 5px 10px;
+  background-color: #ffffff;
+  border-radius: 16.5px;
+  position: absolute;
+  top: 170px;
+  left: 190px;
+}
+.best{
+  padding: 5px 10px;
+  background-color: #ffffff;
+  border-radius: 16.5px;
+  position: absolute;
+  top: 170px;
+  left: 10px;
+}
+.content{
+  font-size: 13.5px;
+  color: #ffffff;
+  position: absolute;
+  top: 180px;
+  left: 400px;
+}
+.img-container{
+  background-color: #000000;
+  position: relative;
+}
+.content1{
+  width: 75px;
+  height: 53px;
+  border-radius: 3.8px;
+  background-color: orange;
+  text-align: center;
+  position: absolute;
+  top: 30px;
+  left: 550px;
+}
+.content1 p{
+  font-size: 15px;
+  margin: 0px;
+  color: white;
+}
+.promote{
+  width: 152px;
+  height: 33px;
+  background-color: skyblue;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  top: -15px;
+  left: 480px;
+}
+.promote p{
+  margin: 4px;
+}
+
+.detail-component{
+  display: flex;
+  flex-direction: row;
+}
+.detail-component1{
+  width: 70%;
+  padding-left: 10px;
+}
+.detail-component2{
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+}
+.detail-component2 h2{
+  margin: 0px;
+  padding-left: 20px;
+}
+.detail-component2 h3{
+  margin: 0px;
+}
+
+.detail-component3{
+  display: flex;
+  flex-direction: row;
+}
+.detail-component3 p{
+  margin: 0px;
+  font-size: 13px;
+}
+#range{
+  opacity: 0.6;
+  padding-left: 10px;
+}
+.detail-component4{
+  display: flex;
+  flex-direction: row;
+}
+.detail-component4 p{
+  margin: 0px;
+  padding-top: 10px;
+  font-size: 13px;
+
+}
+
+#percentage{
+  color: #3cc497;
+  padding-right: 10px;
+}
+
+.detail-component5{
+  display: flex;
+  margin-top: 10px;
+}
+
+.detail-component5 p{
+  font-size: 13px;
+  margin: 0px;
+  padding: 5px 10px;
+  background-color: #ccf5e7;
+  border-radius: 16.5px;
+}
+
+.detail-comp{
+    display: flex;
+    flex-direction: column;
+}
+.detail-comp1{
+  display: flex;
+  flex-direction: row;
+  margin-left: 70px;
+}
+.detail-comp1 #id1{
+    margin-right: 10px;
+    font-size: 11px;
+    text-decoration: line-through;
+    padding-top: 6px;
+    margin-bottom: 0px;
+}
+.detail-comp1 #id2{
+  padding: 2px 5px;
+  font-size: 13px;
+  background-color: red;
+  color: white;
+  border-top-left-radius: 16.5px;
+  border-bottom-left-radius: 16.5px;
+  margin-bottom: 0px;
+}
+.detail-comp2{
+  margin-left: 40px;
+}
+.detail-comp2 p{
+    font-size: 25px;
+    margin: 0px;
+    color: red;
+}
+.detail-comp3 {
+  margin-left: 30px;
+}
+.detail-comp3 p{
+    margin: 0px;
+    font-size: 11px;
+    opacity: 0.7;
+}
+.detail-comp4 p{
+    font-size: 13px;
+    color: #3cc497;
+}
